@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		0616BC1E1C01BA9F0057159B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0616BC1D1C01BA9F0057159B /* AppDelegate.swift */; };
-		0616BC201C01BA9F0057159B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0616BC1F1C01BA9F0057159B /* ViewController.swift */; };
-		0616BC231C01BA9F0057159B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0616BC211C01BA9F0057159B /* Main.storyboard */; };
 		0616BC261C01BA9F0057159B /* QRReaderDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0616BC241C01BA9F0057159B /* QRReaderDemo.xcdatamodeld */; };
 		0616BC281C01BA9F0057159B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0616BC271C01BA9F0057159B /* Assets.xcassets */; };
 		0616BC2B1C01BA9F0057159B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0616BC291C01BA9F0057159B /* LaunchScreen.storyboard */; };
+		0616BC341C01BABB0057159B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0616BC321C01BABB0057159B /* ViewController.swift */; };
+		0616BC351C01BABB0057159B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0616BC331C01BABB0057159B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0616BC1A1C01BA9F0057159B /* QRReaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRReaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0616BC1D1C01BA9F0057159B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0616BC1F1C01BA9F0057159B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0616BC221C01BA9F0057159B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0616BC251C01BA9F0057159B /* QRReaderDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QRReaderDemo.xcdatamodel; sourceTree = "<group>"; };
 		0616BC271C01BA9F0057159B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0616BC2A1C01BA9F0057159B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0616BC2C1C01BA9F0057159B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0616BC321C01BABB0057159B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0616BC331C01BABB0057159B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				0616BC1D1C01BA9F0057159B /* AppDelegate.swift */,
-				0616BC1F1C01BA9F0057159B /* ViewController.swift */,
-				0616BC211C01BA9F0057159B /* Main.storyboard */,
+				0616BC321C01BABB0057159B /* ViewController.swift */,
+				0616BC331C01BABB0057159B /* Main.storyboard */,
 				0616BC271C01BA9F0057159B /* Assets.xcassets */,
 				0616BC291C01BA9F0057159B /* LaunchScreen.storyboard */,
 				0616BC2C1C01BA9F0057159B /* Info.plist */,
@@ -124,9 +124,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0616BC351C01BABB0057159B /* Main.storyboard in Resources */,
 				0616BC2B1C01BA9F0057159B /* LaunchScreen.storyboard in Resources */,
 				0616BC281C01BA9F0057159B /* Assets.xcassets in Resources */,
-				0616BC231C01BA9F0057159B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0616BC201C01BA9F0057159B /* ViewController.swift in Sources */,
+				0616BC341C01BABB0057159B /* ViewController.swift in Sources */,
 				0616BC1E1C01BA9F0057159B /* AppDelegate.swift in Sources */,
 				0616BC261C01BA9F0057159B /* QRReaderDemo.xcdatamodeld in Sources */,
 			);
@@ -146,14 +146,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0616BC211C01BA9F0057159B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0616BC221C01BA9F0057159B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0616BC291C01BA9F0057159B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
